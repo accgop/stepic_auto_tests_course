@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 link = "http://selenium1py.pythonanywhere.com/"
+
+
 @pytest.fixture
 def browser():
     print("\nstart browser for test..")
